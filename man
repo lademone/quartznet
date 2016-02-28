@@ -1,0 +1,42 @@
+[33mcommit 56d3c7d429540feafaba5961392d3a2f5bb08471[m
+Author: Marko Lahma <marko.lahma@gmail.com>
+Date:   Sat Nov 8 14:44:02 2014 +0200
+
+    remove obsolete Anakia libs
+
+[1mdiff --git a/lib/other/Anakia.dll b/lib/other/Anakia.dll[m
+[1mdeleted file mode 100644[m
+[1mindex ccb8a3d..0000000[m
+Binary files a/lib/other/Anakia.dll and /dev/null differ
+[1mdiff --git a/lib/other/Anakia.license.txt b/lib/other/Anakia.license.txt[m
+[1mdeleted file mode 100644[m
+[1mindex b54bb13..0000000[m
+[1m--- a/lib/other/Anakia.license.txt[m
+[1m+++ /dev/null[m
+[36m@@ -1,18 +0,0 @@[m
+[31m-Copyright 2004-2008 Castle Project - http://www.castleproject.org/[m
+[31m- [m
+[31m-Licensed under the Apache License, Version 2.0 (the "License");[m
+[31m-you may not use this file except in compliance with the License.[m
+[31m-You may obtain a copy of the License at[m
+[31m-[m
+[31m-    http://www.apache.org/licenses/LICENSE-2.0[m
+[31m-[m
+[31m-Unless required by applicable law or agreed to in writing, software[m
+[31m-distributed under the License is distributed on an "AS IS" BASIS,[m
+[31m-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.[m
+[31m-See the License for the specific language governing permissions and[m
+[31m-limitations under the License.[m
+[31m-[m
+[31m-[m
+[31m--- Quartz.NET NOTICE: This is a slightly modified version to work around some [m
+[31m--- documentation quirks. Please get fresh copy from Castle Project for maximum[m
+[31m--- compatibility.[m
+\ No newline at end of file[m
+[1mdiff --git a/lib/other/NVelocity.dll b/lib/other/NVelocity.dll[m
+[1mdeleted file mode 100644[m
+[1mindex 69afe85..0000000[m
+Binary files a/lib/other/NVelocity.dll and /dev/null differ
+[1mdiff --git a/lib/other/NVelocity.license.txt b/lib/other/NVelocity.license.txt[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m

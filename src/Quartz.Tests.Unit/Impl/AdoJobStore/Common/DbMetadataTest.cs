@@ -19,7 +19,7 @@
 
 using NUnit.Framework;
 
-using Oracle.ManagedDataAccess.Client;
+//using Oracle.ManagedDataAccess.Client;
 
 using Quartz.Impl.AdoJobStore.Common;
 
@@ -35,7 +35,7 @@ namespace Quartz.Tests.Unit.Impl.AdoJobStore.Common
         {
             TestDbMetadata("SqlServer-20");
         }
-
+/*
         [Test]
         public void TestDbMetadataOracleClient20()
         {
@@ -59,7 +59,7 @@ namespace Quartz.Tests.Unit.Impl.AdoJobStore.Common
         {
             TestDbMetadata("OracleODP-1123-40");
         }
-
+*/
         [Test]
         public void TestDbMetadataMySql50()
         {
@@ -83,7 +83,7 @@ namespace Quartz.Tests.Unit.Impl.AdoJobStore.Common
         {
             TestDbMetadata("MySql-109");
         }
-
+/*
         [Test]
         public void TestDbMetadataOracleODPManaged4012()
         {
@@ -91,7 +91,7 @@ namespace Quartz.Tests.Unit.Impl.AdoJobStore.Common
             var command = (OracleCommand) provider.CreateCommand();
             Assert.That(command.BindByName, Is.True, "bind by name should default to true");
         }
-
+*/
         private static DbProvider TestDbMetadata(string dbname)
         {
             DbProvider dbp = new DbProvider(dbname, "foo");
