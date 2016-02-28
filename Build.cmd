@@ -1,1 +1,1 @@
-%~dp0tools\nant\bin\nant clean build > buildlog.txt
+tools\nant\bin\nant clean build > buildlog.txt
