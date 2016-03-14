@@ -32,7 +32,7 @@ namespace Quartz.Tests.Integration.Impl.AdoJobStore
 
         static AdoJobStoreSmokeTest()
         {
-            dbConnectionStrings["Oracle"] = "Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=xe)));User Id=quartznet;Password=quartznet;";
+        //    dbConnectionStrings["Oracle"] = "Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=xe)));User Id=quartznet;Password=quartznet;";
             dbConnectionStrings["SQLServer"] = "Server=(local);Database=quartz;Trusted_Connection=True;";
             dbConnectionStrings["SQLServerCe"] = @"Data Source=C:\quartznet.sdf;Persist Security Info=False;";
             dbConnectionStrings["MySQL"] = "Server = localhost; Database = quartz; Uid = quartznet; Pwd = quartznet";
@@ -165,7 +165,7 @@ namespace Quartz.Tests.Integration.Impl.AdoJobStore
                 clustered = previousClustered;
             }
         }
-
+/*
         [Test]
         public void TestOracleODPManaged4011()
         {
@@ -189,7 +189,7 @@ namespace Quartz.Tests.Integration.Impl.AdoJobStore
             properties["quartz.jobStore.driverDelegateType"] = "Quartz.Impl.AdoJobStore.OracleDelegate, Quartz";
             RunAdoJobStoreTest("OracleODP-20", "Oracle", properties);
         }
-
+*/
         [Test]
         public void TestMySql50()
         {
